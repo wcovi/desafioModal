@@ -13,6 +13,7 @@
 		79F139B0298C97B300FD59E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F139AE298C97B300FD59E2 /* Main.storyboard */; };
 		79F139B2298C97B500FD59E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79F139B1298C97B500FD59E2 /* Assets.xcassets */; };
 		79F139B5298C97B500FD59E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79F139B3298C97B500FD59E2 /* LaunchScreen.storyboard */; };
+		79F139BD298C98DF00FD59E2 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F139BC298C98DF00FD59E2 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		79F139B1298C97B500FD59E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79F139B4298C97B500FD59E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		79F139B6298C97B500FD59E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79F139BC298C98DF00FD59E2 /* ModalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				79F139A8298C97B300FD59E2 /* AppDelegate.swift */,
 				79F139AA298C97B300FD59E2 /* SceneDelegate.swift */,
-				79F139AC298C97B300FD59E2 /* ViewController.swift */,
 				79F139AE298C97B300FD59E2 /* Main.storyboard */,
+				79F139AC298C97B300FD59E2 /* ViewController.swift */,
+				79F139BC298C98DF00FD59E2 /* ModalViewController.swift */,
 				79F139B1298C97B500FD59E2 /* Assets.xcassets */,
 				79F139B3298C97B500FD59E2 /* LaunchScreen.storyboard */,
 				79F139B6298C97B500FD59E2 /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F139BD298C98DF00FD59E2 /* ModalViewController.swift in Sources */,
 				79F139AD298C97B300FD59E2 /* ViewController.swift in Sources */,
 				79F139A9298C97B300FD59E2 /* AppDelegate.swift in Sources */,
 				79F139AB298C97B300FD59E2 /* SceneDelegate.swift in Sources */,
